@@ -24,7 +24,7 @@ MVC Pattern 이란
 
 사용자가 **Controller**를 조작하면 Controller는 **Model**을 통해 데이터를 가져오고 데이터를 토대로 시각적인 표현을 담당하는 **View**를 제어해서 사용자에게 전달한다.
 
-<center><img src="/assets/images/mvc.png" onclick=location='https://opentutorials.org/course/697/3828'></center>
+<center><img src="/assets/images/mvc.png" onclick="location='https://opentutorials.org/course/697/3828'"></center>
 
 ---
 
