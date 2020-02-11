@@ -1,6 +1,18 @@
-# Study SpringFramwork :open_file_folder:
+---
+title: "Spring Framework 시작하기" 
+excerpt: "Spring Framewokr 처음부터 "
 
-## These are the resources for studying Spring Framwork.:herb:
+categories:
+  - Blog
+tags:
+ - Spring
+ - Framework
+last_modified_at: 2020-02-11T23:32:00-05:00
+---
+
+# Study SpringFramwork
+
+## These are the resources for studying Spring Framwork.
 
 ## Contents
 * [Development Environment](##Development-Environment)
