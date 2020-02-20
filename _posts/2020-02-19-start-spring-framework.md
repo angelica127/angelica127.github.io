@@ -1,5 +1,5 @@
 ---
-title: "Spring Framework 라이브러리 - lombok"
+title: "Spring Framework 라이브러리 - Lombok"
 excerpt: "lombok과 HikariCP, MyBatis까지"
 
 categories:
@@ -16,7 +16,7 @@ last_modified_at: 2020-02-19T22:32:00-05:00
 
 > Spring Framework를 처음 시작하면서 하는 여러 설정들은 [github](https://github.com/angelica127/SpringFramwork/)를 참고하도록 한다.
 
-### lombok 라이브러리 설치
+### lombok 라이브러리 등록
 
 > getter, setter, toString(), 생성자 등을 자동으로 생성해 주는 라이브러리
 
