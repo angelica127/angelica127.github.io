@@ -100,6 +100,7 @@ Ex) D:\dwon\api
 Lombok을 이용해서 setter 메서드를 자동으로 구현되도록 하기 위해 component를 scan하기 위한 기본 패키지를 설정해야 하며, 이를 위해서 `'root-context.xml'`의 `'NameSpaces'` 탭에서 `'context'`라는 항목을 체크한다.
 
 [![root-context](/assets/images/lombok7.png)](/assets/images/lombok7.png)
+[![root-context](/assets/images/lombok7-1.png)](/assets/images/lombok7-1.png)
 
 ### Annotation
 
