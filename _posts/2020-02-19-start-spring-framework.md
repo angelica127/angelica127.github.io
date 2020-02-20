@@ -115,7 +115,7 @@ Lombok을 이용해서 setter 메서드를 자동으로 구현되도록 하기 �
 
 - up to JDK 1.7
 
-  - @Setter(on Method = @__)
+  - @Setter(on Method = @__({@Autowired}))
 
 - from JDK 1.8
 
