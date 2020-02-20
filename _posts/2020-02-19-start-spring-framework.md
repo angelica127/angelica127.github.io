@@ -102,6 +102,21 @@ Lombok을 이용해서 setter 메서드를 자동으로 구현되도록 하기 �
 [![root-context](/assets/images/lombok7.png)](/assets/images/lombok7.png)
 [![root-context](/assets/images/lombok7-1.png)](/assets/images/lombok7-1.png)
 
+### context 항목을 체크하는 이유?
+
+`root-context.xml`이나 `servlet-context.xml`에서 `<component-scan>`태그에 의해서 Spring에서 자동으로 생성되어 지는 Annotation을 scan 할 수 있게 입력해야 하기 때문에 context 항목을 체크해야 한다.
+
+- root-context.xml
+
+`	<context:component-scan base-package="org.zerock"></context:component-scan>	`
+
+- servlet-context.xml
+
+자동으로 스캔하도록 하는 설정: 여러 개 설정 가능 , org.zerock까지만 등록하면 그 밑으로 다 자동 스캔
+
+`<context:component-scan base-package="org.zerock" />`
+
+
 ### Annotation
 
 @Data - setter, getter, toString(), 생성자를 자동으로 만들기
