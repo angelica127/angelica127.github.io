@@ -23,7 +23,7 @@ name                     : "Kim Jaewon"
 description              : "코딩에 도움이 되는 정보 모아두기"
 url                      : "https://angelica127.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "angelica127/SpringFramework"
+repository               : #
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
