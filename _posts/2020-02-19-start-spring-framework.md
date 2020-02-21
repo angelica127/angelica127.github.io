@@ -14,7 +14,7 @@ last_modified_at: 2020-02-19T22:32:00-05:00
 
 ## Spring Framework에서 많이 사용하는 라이브러리 3가지 설치하기
 
-> Spring Framework를 처음 시작하면서 하는 여러 설정들은 [github](https://github.com/angelica127/SpringFramwork/)를 참고하도록 한다.
+> Spring Framework를 처음 시작하면서 하는 여러 설정들은 <a href="https://github.com/angelica127/SpringFramwork/" target="_blank">Github<a>를 참고하도록 한다.
 
 ### lombok 라이브러리 등록
 
