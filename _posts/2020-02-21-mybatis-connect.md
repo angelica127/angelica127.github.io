@@ -121,13 +121,13 @@ Mapper를 xml과 Interface + Annotation의 형태로 작성한다. Mapper는 SQL
 
 여기에서는 Annotation을 이용하지 않고 Interface와 XML을 이용하여 Mapper를 작성한다. Interface에는 Method를 선언하고 Mapper.xml 파일에 SQL문을 작성한다.
 
-1. Mapper Interface를 만든다.
+  1. Mapper Interface를 만든다.
 
 Interface에는 Method를 정의하고, 구현하지 않는다.
 
 ![interface](/assets/images/mybatis2.png)
 
-2. Mapper.xml을 작성한다.
+  2. Mapper.xml을 작성한다.
 
 - Mapper.xml에는 MyBatis의 XML Mapper에서 이용하는 태그에 대한 설정이 필요하다. [mybatis 참조](http://www.mybatis.org/mybatis-3/ko/sqlmap-xml.html)
 
