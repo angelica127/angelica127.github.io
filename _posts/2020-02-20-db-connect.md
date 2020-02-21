@@ -10,7 +10,7 @@ tags:
  - library
  - oracle
  - Database
-last_modified_at: 2020-02-20T11:32:00-05:00
+date: 2020-02-20 11:32
 ---
 
 ## Spring Framework와 Oracle Database 연동
