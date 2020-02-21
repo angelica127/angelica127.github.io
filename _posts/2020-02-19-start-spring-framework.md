@@ -24,8 +24,6 @@ last_modified_at: 2020-02-19T22:32:00-05:00
 
 Lombok은 다른 jar 파일과 달리 프로젝트의 코드에서만 사용되는 것이 아니라 Eclipse 에디터 내에서도 사용되어야 하기 때문에 별도로 설치한다.
 
-[Annotation](#Annotation) 설명
-
 ### 1. Lombok jar 파일 다운로드
 
 [lombok](https://projectlombok.org/download) 홈페이지의 Downlod 탭에서 jar 파일을 다운로드 받는다.
