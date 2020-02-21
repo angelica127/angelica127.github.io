@@ -119,17 +119,17 @@ MyBatis에서 가장 핵심적인 객체는 SQLSession과 SQLSessionFactory이�
 
 Mapper를 xml과 Interface + Annotation의 형태로 작성한다. Mapper는 SQL과 그에 대한 처리를 지정하는 역할을 한다.
 
-여기에서는 Annotation을 이용하지 않고 Interface와 XML을 이용하여 Mapper를 작성한다. Interface에는 Method를 선언하고 Mapper.xml 파일에 SQL문을 작성한다.
+여기에서는 Annotation을 이용하지 않고 '__Interface와 XML__'을 이용하여 '__Mapper를 작성__'한다. Interface에는 Method를 선언하고 Mapper.xml 파일에 SQL문을 작성한다.
 
 1. Mapper Interface를 만든다.
 
-Interface에는 Method를 정의하고, 구현하지 않는다.
+1. Mapper.xml을 작성한다.
+
+- Interface에는 Method를 정의하고, 구현하지 않는다.
 
 ![interface](/assets/images/mybatis2.png)
 
-1. Mapper.xml을 작성한다.
-
-Mapper.xml에는 MyBatis의 XML Mapper에서 이용하는 태그에 대한 설정이 필요하다. [mybatis 참조](http://www.mybatis.org/mybatis-3/ko/sqlmap-xml.html)
+- Mapper.xml에는 MyBatis의 XML Mapper에서 이용하는 태그에 대한 설정이 필요하다. [mybatis 참조](http://www.mybatis.org/mybatis-3/ko/sqlmap-xml.html)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -138,7 +138,7 @@ Mapper.xml에는 MyBatis의 XML Mapper에서 이용하는 태그에 대한 설�
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 ```
 
-MyBatis를 이용해서 SQL을 처리할 때 Annotation을 이용하는 방식이 편리하지만, SQL이 복잡하거나 길어지는 경우에는 XML을 이용하는 방식을 더 선호한다. mybatis-spring의 경우 Mapper Interface와 XML을 동시에 이용할 수 있다.
+- MyBatis를 이용해서 SQL을 처리할 때 Annotation을 이용하는 방식이 편리하지만, SQL이 복잡하거나 길어지는 경우에는 '__XML__'을 이용하는 방식을 더 선호한다. mybatis-spring의 경우 '__Mapper Interface와 XML__'을 동시에 이용할 수 있다.
 
 ![xml](/assets/images/mybatis3.png)
 
