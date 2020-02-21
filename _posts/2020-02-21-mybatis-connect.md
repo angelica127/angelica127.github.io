@@ -129,7 +129,7 @@ Interface에는 Method를 정의하고, 구현하지 않는다.
 
   2. Mapper.xml을 작성한다.
 
-- Mapper.xml에는 MyBatis의 XML Mapper에서 이용하는 태그에 대한 설정이 필요하다. [mybatis 참조](http://www.mybatis.org/mybatis-3/ko/sqlmap-xml.html)
+Mapper.xml에는 MyBatis의 XML Mapper에서 이용하는 태그에 대한 설정이 필요하다. [mybatis 참조](http://www.mybatis.org/mybatis-3/ko/sqlmap-xml.html)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
