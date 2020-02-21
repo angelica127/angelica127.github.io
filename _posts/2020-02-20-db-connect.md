@@ -1,5 +1,5 @@
 ---
-title: "Spring Framework 라이브러리 - OJDBC"
+title: "Spring Framework 라이브러리 - 2. OJDBC"
 excerpt: "Spring과 DB 연결"
 
 categories:

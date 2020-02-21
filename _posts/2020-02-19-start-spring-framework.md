@@ -1,5 +1,5 @@
 ---
-title: "Spring Framework 라이브러리 - Lombok"
+title: "Spring Framework 라이브러리 - 1. Lombok"
 excerpt: "lombok과 HikariCP, MyBatis까지"
 
 categories:
