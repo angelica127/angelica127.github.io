@@ -3,7 +3,7 @@ title: "Spring Framework Project 시작하기 정리"
 excerpt: "프로젝트 시작 최종 정리"
 
 categories:
-  - Blog
+  - Spring
 tags:
  - Spring
  - Framework

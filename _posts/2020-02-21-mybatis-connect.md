@@ -3,7 +3,7 @@ title: "Spring Framework 라이브러리 - 4. MyBatis"
 excerpt: "lombok과 HikariCP, MyBatis까지"
 
 categories:
-  - Blog
+  - Spring
 tags:
  - Spring
  - Framework

@@ -3,7 +3,7 @@ title: "Spring Framework 라이브러리 - 2. OJDBC"
 excerpt: "Spring과 DB 연결"
 
 categories:
-  - Blog
+  - Spring
 tags:
  - Spring
  - Framework

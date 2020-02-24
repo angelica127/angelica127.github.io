@@ -3,7 +3,7 @@ title: "설정 정리 - 기타"
 excerpt: "프로젝트 시작 전 최종 정리"
 
 categories:
-  - Blog
+  - Spring
 tags:
  - Spring
  - Framework

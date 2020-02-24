@@ -1,11 +1,12 @@
 ---
-title: "MVC Pattern" 
+title: "MVC Pattern"
 excerpt: "MVC 패턴이란 무엇인가?"
 
 categories:
-  - Blog
+  - IT Word
 tags:
- - IT Word
+ - IT
+ - Word
 last_modified_at: 2020-02-07T14:32:00-05:00
 ---
 
@@ -43,7 +44,7 @@ MVC Pattern 이란
 ### 1. 사용자가 편집하길 원하는 모든 데이터를 가지고 있어야 한다.  
 
 ### 2. 뷰나 컨트롤러에 대해서 어떤 정보도 알지 말아야 한다.  
-  
+
 ### 3. 변경이 일어나면, 변경 통지에 대한 처리방법을 구현해야만 한다.
 
 ## 뷰, View
