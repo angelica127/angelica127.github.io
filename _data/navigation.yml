@@ -4,6 +4,8 @@ main:
     url: https://angelica127.github.io/about/
   - title: "Category"
     url: https://angelica127.github.io/categories/
+  - title: "Spring Framework"
+    url: https://angelica127.github.io/categories/spring
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
