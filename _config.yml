@@ -111,7 +111,7 @@ author:
   avatar           : "/assets/images/dev.jpg" # 프로필사진
   bio              : "Java Software Engineer" # "이름 아래 나타날 자신의 설명"
   location         : "Seoul, South Korea"
-  email            : "kimjwon127@gmail.com"
+  # email            : "kimjwon127@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -130,7 +130,7 @@ author:
       url: "https://github.com/angelica127"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/jwk127"
+      # url: "https://instagram.com/jwk127"
 
 # Site Footer
 footer:
@@ -152,7 +152,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/jwk127"
+      # url: "https://instagram.com/jwk127"
 
 
 # Reading Files
