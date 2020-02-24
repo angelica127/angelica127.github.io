@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko" # 타깃 국가 설정
-title                    : "JW Dev"
+title                    : "JW's Development Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "JW's Development Blog"
+name                     : "JW's Dev"
 description              : "내가 개발하기 위한 정보를 올리는 Blog"
 url                      : "https://angelica127.github.io" # 블로그 주소
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -110,7 +110,7 @@ author:
   name             : "Kim Jaewon"
   avatar           : "/assets/images/dev.jpg" # 프로필사진
   bio              : "Java Software Engineer" # "이름 아래 나타날 자신의 설명"
-  location         : "Seoul, South Koreak"
+  location         : "Seoul, South Korea"
   email            : "kimjwon127@gmail.com"
   links:
     - label: "Email"
