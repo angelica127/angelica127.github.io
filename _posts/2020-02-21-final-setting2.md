@@ -13,7 +13,7 @@ date: 2020-02-21 18:00
 
 ## Spring Framework 시작 전 설정 정리
 
-> Spring을 이용한 Project를 시작하기 전, 여기까지 잔행했던 설정 정리
+> Spring을 이용한 Project를 시작하기 전, 여기까지 진행했던 설정 정리
 
 Spring Framework를 시작하면서 Lombok, MyBatis 등의 Library를 설치하면서 pom.xml과 servlet-context.xml, root-context.xml 등을 여러 번 수정했다. 여태까지 수정했던 내용을 정리해서 올려 두려고 한다.
 
