@@ -1,4 +1,4 @@
----
+`  ---
 title: "About"
 permalink: /about/
 layout: single
@@ -13,7 +13,7 @@ author_profile: true
 
 - os : terminal shell
 
-- dev : rest restful, JSP vs Servlet, oop
+- dev : rest restful, JSP vs Servlet, oop, POJO, AOP
 
 - design pattern : singleton
 
