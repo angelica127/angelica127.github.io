@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko" # 타깃 국가 설정
-title                    : "JW's Development Blog"
+title                    : "Angelica's Development Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "JW's Dev"
-description              : "내가 개발하기 위한 정보를 올리는 Blog"
+name                     : "angelica's Dev"
+description              : "개발하기 위한 정보를 올리는 Blog"
 url                      : "https://angelica127.github.io" # 블로그 주소
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "angelica127/angelica127.github.io" # 블로그 github 리포지토리
