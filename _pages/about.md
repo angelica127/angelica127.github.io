@@ -2,6 +2,7 @@
 title: "About"
 permalink: /about/
 layout: single
+author_profile: true
 ---
 
 ## What's in the Blog Angelica?
