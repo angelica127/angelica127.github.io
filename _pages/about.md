@@ -4,16 +4,18 @@ permalink: /about/
 layout: single
 ---
 
-## angelica127.github.io 블로그
+## What's in the Blog Angelica?
 
-코딩을 위한 정보 모으기
+자기 계발을 위한 정보 모으기
 
-os : terminal shell
+### Will be continued...
 
-dev : rest restful, ORM
+- os : terminal shell
 
-design pattern : singleton
+- dev : rest restful, ORM, JSP vs Servlet
 
-network : get post, http https
+- design pattern : singleton
 
-DB : SQL
+- network : get post, http https
+
+- DB : SQL
