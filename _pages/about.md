@@ -13,10 +13,12 @@ author_profile: true
 
 - os : terminal shell
 
-- dev : rest restful, ORM, JSP vs Servlet
+- dev : rest restful, JSP vs Servlet, oop
 
 - design pattern : singleton
 
 - network : get post, http https
 
-- DB : SQL
+- DB : SQL, ORM
+
+2020.02.26 will be uploaded - Library VS Framework
