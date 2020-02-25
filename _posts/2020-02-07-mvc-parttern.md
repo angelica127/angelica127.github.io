@@ -3,9 +3,10 @@ title: "MVC Pattern"
 excerpt: "MVC 패턴이란 무엇인가?"
 
 categories:
-  - IT Word
+  - Dev
 tags:
  - IT
+ - Develop
  - Word
 last_modified_at: 2020-02-07T14:32:00-05:00
 ---
