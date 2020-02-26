@@ -130,6 +130,7 @@ Mapper를 xml과 Interface + Annotation의 형태로 작성한다. Mapper는 SQL
 2) Mapper.xml을 작성한다.
 
 - Mapper.xml에는 MyBatis의 XML Mapper에서 이용하는 태그에 대한 설정이 필요하다.
+
 [mybatis 참조 - '시작하기 > 매핑된 SQL 구문 살펴보기 탭'](https://mybatis.org/mybatis-3/ko/getting-started.html)
 
 ```
