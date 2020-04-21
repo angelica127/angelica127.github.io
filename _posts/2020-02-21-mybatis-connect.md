@@ -48,7 +48,7 @@ MyBatis는 '**SQL Mapping 프레임워크**'로 '_SQL Mapper_'의 한 종류이�
 SQL Mapper와 ORM을 '**Persistence Framewor**'라고 한다.
 Persistence Framework는 JDBC 프로그래밍의 복잡함이나 번거로움 없이 간단한 작업만으로 데이터베이스와 연동되는 시스템을 빠르게 개발할 수 있으면 안정적인 구동을 보장한다.
 
-**ORM(Object Relational Mapping, 객체-관계 매핑)**
+**\# ORM(Object Relational Mapping, 객체-관계 매핑)**
 
 ORM은 데이터베이스 객체를 자바 객체로 매핑함으로써 객체 간의 관계를 바탕으로 SQL을 자동으로 생성해 준다. 다시 말해서 객체를 통해 간접적으로 데이터베이스의 데이터를 다룬다는 것이다. ORM을 이용하면 SQL Query가 아닌 직관적인 코드(Method)로 데이터를 조작할 수 있다.
 
@@ -58,7 +58,7 @@ ORM은 관계형 데이터베이스의 '**관계**'를 Object에 반영하자는
 
 ORM의 예) JPA, Hibernate 등
 
-**SQL Mapper**
+**\# SQL Mapper**
 
 SQL Mapper는 ORM과 다르게 SQL을 명시해 줘야 하며, 단순히 필드를 매핑시키는 것이 목적이다. 즉, SQL Mapper는 SQL문장으로 직접 데이터베이스의 데이터를 다룬다.
 
