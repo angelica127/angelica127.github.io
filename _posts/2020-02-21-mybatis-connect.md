@@ -34,8 +34,7 @@ date: 2020-02-21 11:00
 
 ## MyBatis 라이브러리 등록([MyBatis](http://www.mybatis.org/mybatis-3/))
 
-MyBatis는 '**SQL Mapping 프레임워크**'로 __ORM__(Object Relational Mapping, 객체-관계 매핑)의 한 종류이다. MyBtis는 기존의 SQL을 그대로 활용할 수 있다는 장점이 있고, 진입장벽이 낮은 편이어서 JDBC의 대안으로 많이 사용한다. Spring Framework의 특징 중 하나는 다른 Framework들을 배척하는 대신에 다른 Framework들과의 연동을 쉽게 하는 추가적인 Library들이 많다는 것으로, MyBatis 역시 '__mybatis-spring__'이라는 Library를 통해서 쉽게 연동작업을 처리할 수 있다.
-<br>
+MyBatis는 '**SQL Mapping 프레임워크**'로 '_SQL Mapper_'의 한 종류이다. MyBtis는 기존의 SQL을 그대로 활용할 수 있다는 장점이 있고, 진입장벽이 낮은 편이어서 JDBC의 대안으로 많이 사용한다. Spring Framework의 특징 중 하나는 다른 Framework들을 배척하는 대신에 다른 Framework들과의 연동을 쉽게 하는 추가적인 Library들이 많다는 것으로, MyBatis 역시 '__mybatis-spring__'이라는 Library를 통해서 쉽게 연동작업을 처리할 수 있다.
 
 - MyBatis 장점
 
@@ -43,6 +42,31 @@ MyBatis는 '**SQL Mapping 프레임워크**'로 __ORM__(Object Relational Mappin
   1. MyBatis 내부적으로 PreparedStatement 처리
   1. #{prop}와 같이 속성을 지정하면 내부적으로 자동 처리
   1. 리턴 타입을 지정하는 경우 자동으로 객체 생성 및 ResultSet 처리
+
+## SQL Mapper와 ORM
+
+SQL Mapper와 ORM을 '**Persistence Framewor**'라고 한다.
+Persistence Framework는 JDBC 프로그래밍의 복잡함이나 번거로움 없이 간단한 작업만으로 데이터베이스와 연동되는 시스템을 빠르게 개발할 수 있으면 안정적인 구동을 보장한다.
+
+**ORM(Object Relational Mapping, 객체-관계 매핑)**
+
+ORM은 데이터베이스 객체를 자바 객체로 매핑함으로써 객체 간의 관계를 바탕으로 SQL을 자동으로 생성해 준다. 다시 말해서 객체를 통해 간접적으로 데이터베이스의 데이터를 다룬다는 것이다. ORM을 이용하면 SQL Query가 아닌 직관적인 코드(Method)로 데이터를 조작할 수 있다.
+
+ORM은 관계형 데이터베이스의 '**관계**'를 Object에 반영하자는 것이 목적이다. 이 '관계'를 바탕으로 SQL을 자동으로 생성한다.
+
+* 데이터베이스 데이터 ← Mapping → Object
+
+ORM의 예) JPA, Hibernate 등
+
+**SQL Mapper**
+
+SQL Mapper는 ORM과 다르게 SQL을 명시해 줘야 하며, 단순히 필드를 매핑시키는 것이 목적이다. 즉, SQL Mapper는 SQL문장으로 직접 데이터베이스의 데이터를 다룬다.
+
+* SQL ← Mapping → Object
+
+SQL Mapper의 예) Mybatis, JdbcTempletes 등
+
+Reference : [SQL Mapper와 ORM](https://gmlwjd9405.github.io/2018/12/25/difference-jdbc-jpa-mybatis.html)
 
 ### 1. pom.xml에 라이브러리 등록
 
